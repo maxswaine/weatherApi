@@ -1,4 +1,4 @@
-package com.maxswaine.weathercli.api;
+package com.maxswaine.weathercli.model;
 
     public class WeatherResponse {
         private final String lastUpdated;

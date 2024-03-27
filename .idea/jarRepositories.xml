@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="RemoteRepositoriesConfiguration">
+    <remote-repository>
+      <option name="id" value="mvn-snapshots" />
+      <option name="name" value="libs-snapshots" />
+      <option name="url" value="https://repo1.maven.org/maven2" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="central" />
+      <option name="name" value="Central Repository" />
+      <option name="url" value="https://repo.maven.apache.org/maven2" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="artifactory-snapshots" />
+      <option name="name" value="libs-snapshots" />
+      <option name="url" value="https://art01c.pps-int.com/artifactory/libs-snapshots" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="artifactory-releases" />
+      <option name="name" value="libs-releases" />
+      <option name="url" value="https://art01c.pps-int.com/artifactory/libs-releases" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="anypoint-exchange-v2" />
+      <option name="name" value="Anypoint Exchange" />
+      <option name="url" value="https://maven.anypoint.mulesoft.com/api/v2/maven" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="codeartifact-releases" />
+      <option name="name" value="pps-maven-releases" />
+      <option name="url" value="https://pps-domain-720571822183.d.codeartifact.eu-west-1.amazonaws.com/maven/pps-maven-releases/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="central" />
+      <option name="name" value="Maven Central repository" />
+      <option name="url" value="https://repo1.maven.org/maven2" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="artifactorypro-releases" />
+      <option name="name" value="libs-releases" />
+      <option name="url" value="https://artifactory.pps-int.com/artifactory/libs-releases/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="jboss.community" />
+      <option name="name" value="JBoss Community repository" />
+      <option name="url" value="https://repository.jboss.org/nexus/content/repositories/public/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="mvn-central" />
+      <option name="name" value="libs-releases" />
+      <option name="url" value="https://repo1.maven.org/maven2" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="artifactorypro-snapshots" />
+      <option name="name" value="libs-snapshots" />
+      <option name="url" value="https://artifactory.pps-int.com/artifactory/libs-snapshots/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="codeartifact-snapshots" />
+      <option name="name" value="pps-maven-snapshots" />
+      <option name="url" value="https://pps-domain-720571822183.d.codeartifact.eu-west-1.amazonaws.com/maven/pps-maven-snapshots/" />
+    </remote-repository>
+  </component>
+</project>

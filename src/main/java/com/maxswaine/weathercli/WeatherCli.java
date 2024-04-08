@@ -2,11 +2,7 @@ package com.maxswaine.weathercli;
 
 import com.maxswaine.weathercli.enums.Endpoints;
 import com.maxswaine.weathercli.model.WeatherRequest;
-import com.maxswaine.weathercli.model.WeatherResponse;
-import com.maxswaine.weathercli.util.CommandRunner;
 import com.maxswaine.weathercli.util.InputManager;
-
-import java.util.Scanner;
 
 public class WeatherCli {
     public static void main(String[] args) {

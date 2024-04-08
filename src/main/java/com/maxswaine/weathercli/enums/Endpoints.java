@@ -1,7 +1,7 @@
 package com.maxswaine.weathercli.enums;
 
 public enum Endpoints {
-    CURRENT("current.json?q="),
+    CURRENT("Current.json?q="),
     FORECAST("forecast.json?q="),
     SPORTS("sports.json?q=");
 

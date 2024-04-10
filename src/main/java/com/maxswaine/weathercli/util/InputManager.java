@@ -2,7 +2,6 @@ package com.maxswaine.weathercli.util;
 
 import com.maxswaine.weathercli.enums.Endpoints;
 
-import java.util.List;
 import java.util.Scanner;
 
 public class InputManager {
@@ -10,7 +9,14 @@ public class InputManager {
     Scanner scanner = new Scanner(System.in);
 
     public String getLocationFromUser() {
+        System.out.println("Where would you like to get the weather of");
         return scanner.next();
+
+    }
+
+    public int getForecastDaysFromUser(){
+        System.out.println("Type how many days you would like to get a weather forecast");
+        return scanner.nextInt();
 
     }
 

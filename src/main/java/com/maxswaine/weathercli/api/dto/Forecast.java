@@ -9,4 +9,11 @@ import java.util.List;
 @Setter
 public class Forecast {
     private List<ForecastDay> forecastDay;
+
+    @Override
+    public String toString() {
+        return "Forecast{" +
+                "forecastDay=" + forecastDay +
+                '}';
+    }
 }

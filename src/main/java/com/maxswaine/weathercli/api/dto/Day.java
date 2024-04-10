@@ -15,4 +15,19 @@ public class Day {
     private int daily_will_it_snow;
     private Condition condition;
     private double uv;
+
+    @Override
+    public String toString() {
+        return "Day{" +
+                "maxtemp_c=" + maxtemp_c +
+                ", mintemp_c=" + mintemp_c +
+                ", avgtemp_c=" + avgtemp_c +
+                ", maxwind_mph=" + maxwind_mph +
+                ", totalsnow_cm=" + totalsnow_cm +
+                ", daily_will_it_rain=" + daily_will_it_rain +
+                ", daily_will_it_snow=" + daily_will_it_snow +
+                ", condition=" + condition +
+                ", uv=" + uv +
+                '}';
+    }
 }

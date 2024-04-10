@@ -10,4 +10,12 @@ import lombok.Setter;
 public class CurrentWeatherResponse {
     private Location location;
     private Current current;
+
+    @Override
+    public String toString() {
+        return "CurrentWeatherResponse{" +
+                "location:" + location +
+                ", current=" + current +
+                '}';
+    }
 }

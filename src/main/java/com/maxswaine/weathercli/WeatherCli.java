@@ -1,6 +1,7 @@
 package com.maxswaine.weathercli;
 
 import com.google.gson.Gson;
+import com.google.gson.GsonBuilder;
 import com.maxswaine.weathercli.enums.Endpoints;
 import com.maxswaine.weathercli.model.CurrentWeatherResponse;
 import com.maxswaine.weathercli.model.WeatherAPIRequestBuilder;
@@ -20,7 +21,7 @@ public class WeatherCli {
 
         InputManager inputManager = new InputManager();
         WeatherAPIRequestBuilder weatherAPIRequestBuilder = new WeatherAPIRequestBuilder(API_KEY);
-        Gson gson = new Gson();
+        Gson gson = new GsonBuilder().setPrettyPrinting().create();
         int days = 0;
 
 
@@ -43,13 +44,8 @@ public class WeatherCli {
 
         CurrentWeatherResponse currentWeatherResponse = gson.fromJson(response.body(), CurrentWeatherResponse.class);
 
-
-        System.out.println(response.statusCode());
-        System.out.println(response.body());
-        System.out.println(currentWeatherResponse.getCurrent().getFeelslike_c());
-
-
-
+        // Now you can use currentWeatherResponse object to access the data
+        System.out.println(currentWeatherResponse);
 
     }
 }

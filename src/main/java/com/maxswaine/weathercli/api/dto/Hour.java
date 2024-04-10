@@ -23,4 +23,27 @@ public class Hour {
     private int chance_of_snow;
     private double gust_mph;
     private double uv;
+
+    @Override
+    public String toString() {
+        return "Hour{" +
+                "time_epoch=" + time_epoch +
+                ", time='" + time + '\'' +
+                ", temp_c=" + temp_c +
+                ", is_day=" + is_day +
+                ", condition=" + condition +
+                ", wind_mph=" + wind_mph +
+                ", snow_cm=" + snow_cm +
+                ", humidity=" + humidity +
+                ", cloud=" + cloud +
+                ", feelslike_c=" + feelslike_c +
+                ", windchill_c=" + windchill_c +
+                ", will_it_rain=" + will_it_rain +
+                ", chance_of_rain=" + chance_of_rain +
+                ", will_it_snow=" + will_it_snow +
+                ", chance_of_snow=" + chance_of_snow +
+                ", gust_mph=" + gust_mph +
+                ", uv=" + uv +
+                '}';
+    }
 }
